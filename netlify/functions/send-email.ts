@@ -3,13 +3,19 @@ import emailjs from '@emailjs/browser'
 
 const handler: Handler = async (event) => {
   if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, body: 'Method Not Allowed' }
+    return {
+      statusCode: 405,
+      body: JSON.stringify({ error: 'Method Not Allowed' })
+    }
   }
 
   const { name, email, message } = JSON.parse(event.body || '{}')
 
   if (!name || !email || !message) {
-    return { statusCode: 400, body: 'Missing required fields' }
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: 'Missing required fields' })
+    }
   }
 
   try {
