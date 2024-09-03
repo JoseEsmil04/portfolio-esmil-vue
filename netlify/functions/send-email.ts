@@ -1,5 +1,6 @@
 import { Handler } from '@netlify/functions'
 import emailjs from '@emailjs/browser'
+import 'dotenv/config'
 
 const handler: Handler = async (event) => {
   if (event.httpMethod !== 'POST') {

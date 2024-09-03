@@ -90,11 +90,9 @@ const submitMessage = ref('')
 
 const handleSubmit = async () => {
   isSubmitting.value = true
-  submitStatus.value = ''
-  submitMessage.value = ''
 
   try {
-    const response = await fetch('../../netlify/functions/send-email.ts', {
+    const response = await fetch('/.netlify/functions/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
