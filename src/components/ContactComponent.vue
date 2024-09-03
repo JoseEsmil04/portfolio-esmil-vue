@@ -94,7 +94,7 @@ const handleSubmit = async () => {
   submitMessage.value = ''
 
   try {
-    const response = await fetch('./netlify/functions/send-email.ts', {
+    const response = await fetch('../../netlify/functions/send-email.ts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
