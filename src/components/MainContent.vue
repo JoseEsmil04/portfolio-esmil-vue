@@ -30,7 +30,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import GithubLogo from '@/components/icons/GithubLogo.vue'
-import { LinkedinIcon, MailIcon } from 'lucide-vue-next'
+import { FileIcon, LinkedinIcon } from 'lucide-vue-next'
 
 defineProps<{
   isDarkMode: boolean
@@ -48,7 +48,7 @@ const hero = ref<HeroProps>({
 })
 
 const buttons = ref([
-  { href: '#contact', icon: MailIcon, text: 'Download CV' },
+  { href: '/src/assets/cv.pdf', icon: FileIcon, text: 'Download CV' },
   { href: 'https://www.linkedin.com/in/joseecampusano', icon: LinkedinIcon, text: 'LinkedIn' },
   { href: 'https://github.com/JoseEsmil04', icon: GithubLogo, text: 'GitHub' }
 ])

@@ -8,7 +8,7 @@
       >
         Sobre mí
       </h2>
-      <div class="space-y-4 text-gray-700 dark:text-gray-300">
+      <div class="space-y-4 text-gray-700 dark:text-gray-300 text-lg">
         <p
           class="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-gradient-to-b from-[#4728b2] to-[#19cac5]"
         >

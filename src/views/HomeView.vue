@@ -23,12 +23,7 @@
           <section id="habilidades">
             <SkillsView />
           </section>
-          <section id="contacto" class="py-20">
-            <h2
-              class="text-3xl font-poppins md:text-4xl font-bold mb-8 text-[#4728b2] dark:text-white"
-            >
-              Contacto
-            </h2>
+          <section id="contacto" class="">
             <ContactComponent />
           </section>
         </main>
@@ -69,7 +64,7 @@ const navItems = [
   {
     title: 'Contacto',
     label: 'contacto',
-    url: 'mailto:miduga@gmail.com'
+    url: 'mailto:josecampusano0427@gmail.com'
   }
 ]
 
