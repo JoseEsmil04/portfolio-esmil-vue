@@ -14,10 +14,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
     "@fontsource-variable/epilogue": "^5.0.15",
     "@fontsource/poppins": "^5.0.15",
-    "@netlify/functions": "^2.8.1",
     "dotenv": "^16.4.5",
     "lucide-vue-next": "^0.436.0",
     "vue": "^3.4.29",
