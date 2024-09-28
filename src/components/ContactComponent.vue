@@ -12,7 +12,7 @@
         class="inline-block px-8 py-4 text-lg font-semibold text-white border border-gray-300 dark:bg-gray-800 dark:border-gray-600 dark:text-white focus-visible:ring-[#19cac5]/80 sm:text-base hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-[#4728b2] dark:hover:border-gray-300 dark:hover:text-white bg-[#4728b2] rounded-full shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50"
         :class="{ 'translate-y-0 opacity-100': isVisible, 'translate-y-10 opacity-0': !isVisible }"
       >
-        Colaboremos
+        Contactame
       </a>
     </div>
   </div>

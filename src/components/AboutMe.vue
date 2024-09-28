@@ -12,23 +12,23 @@
         <p
           class="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-gradient-to-b from-[#4728b2] to-[#19cac5]"
         >
-          Soy José Esmi, y comencé a programar a los 22 años. Hoy, con dos años de experiencia en el
-          campo, he aprendido y trabajado con tecnologías como Node.js, Nest y .NET.
+          Soy José Esmi, desarrollador comprometido con más de dos años de experiencia en
+          programación, especializado en tecnologías como Node.js, Nest y .NET.
           <span class="font-semibold text-[#19cac5]">
-            Mi camino me ha llevado a desarrollar backends, APIs REST y microservicios, y estoy en
-            el proceso de dominar Vue.js para convertirme en un desarrollador Fullstack.
+            Mi trayectoria se ha centrado en el desarrollo de backends, APIs REST y microservicios,
+            y actualmente estoy expandiendo mis habilidades hacia el frontend con Vue.js, con el
+            objetivo de convertirme en un desarrollador Fullstack.
           </span>
         </p>
         <p
           class="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-gradient-to-b from-[#4728b2] to-[#19cac5]"
         >
-          Actualmente, me encuentro a punto de graduarme en Ingeniería en Sistemas.
+          Estoy próximo a obtener mi título en Ingeniería en Sistemas, y mi enfoque ha sido siempre
+          el aprendizaje continuo y el perfeccionamiento de mis habilidades técnicas.
           <span class="font-semibold text-[#4728b2]">
-            A pesar de no haber conseguido aún un empleo en el sector, mi pasión por la programación
-            y el deseo de seguir aprendiendo me mantienen motivado.
+            Fuera del ámbito profesional, disfruto de deportes como el béisbol y el baloncesto, así
+            como actividades al aire libre, especialmente ir al campo y conectar con la naturaleza.
           </span>
-          Además de la programación, disfruto mucho de la música y el béisbol, que son mis
-          pasatiempos favoritos.
         </p>
       </div>
     </div>
