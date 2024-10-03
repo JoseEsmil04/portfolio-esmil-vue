@@ -5,7 +5,7 @@
         class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#4728b2] to-[#19cac5] mb-12 transform transition-all duration-1000"
         :class="{ 'translate-y-0 opacity-100': isVisible, 'translate-y-10 opacity-0': !isVisible }"
       >
-        ¿Listo para crear algo increíble juntos?
+        ¿Necesitas ayuda para llevar tu proyecto al siguiente nivel?
       </h1>
       <a
         href="mailto:josecampusano0427@gmail.com"
