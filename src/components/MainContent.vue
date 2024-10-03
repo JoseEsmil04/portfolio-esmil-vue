@@ -42,7 +42,7 @@ interface HeroProps {
 }
 
 const hero = ref<HeroProps>({
-  title: 'Hey, soy Jose Esmi',
+  title: 'Hey, soy José Esmil',
   subtitle:
     'Desarrollador FullStack e Ingeniero en Sistemas de Santo Domingo, República Dominicana. Especializado en crear experiencias web únicas y personalizadas.'
 })

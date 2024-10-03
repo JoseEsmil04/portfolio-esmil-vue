@@ -47,7 +47,7 @@ import ContactComponent from '@/components/ContactComponent.vue'
 
 const navItems = [
   {
-    title: 'Habilidades',
+    title: 'Tecnologias',
     label: 'habilidades',
     url: '/#habilidades'
   },
