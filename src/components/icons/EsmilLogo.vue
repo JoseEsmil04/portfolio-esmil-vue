@@ -1,25 +1,29 @@
 <template>
   <img
     v-if="isDark"
-    src="../../assets/joseecampusanologo.png"
+    src="../../assets/joseecampusanologo.webp"
     alt="JoseEsmil logo"
     :height="height"
     :width="width"
+    loading="lazy"
   />
   <img
     v-else
-    src="../../assets/joseecampusanologowhite.png"
+    src="../../assets/joseecampusanologowhite.webp"
     alt="JoseEsmil logo White"
     :height="height"
     :width="width"
+    loading="lazy"
   />
 </template>
 <script lang="ts" setup>
+import { reactive } from 'vue'
+
 defineProps<{
   isDark: Boolean
-  height: string
-  width: string
 }>()
+
+const { height, width } = reactive({ height: 75, width: 75 })
 </script>
 <style scoped>
 img {

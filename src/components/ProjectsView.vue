@@ -63,9 +63,9 @@
 </template>
 <script setup lang="ts">
 import NestIcon from './icons/skillsIcons/NestIcon.vue'
-import FerreNestApi from '@/assets/ferre-nest-api.png'
-import FerreteriaProjectImg from '@/assets/ferreteria-proyect.png'
-import F1NodeProjectImg from '@/assets/f1-node-project.png'
+import FerreNestApi from '@/assets/ferre-nest-api.webp'
+import FerreteriaProjectImg from '@/assets/ferreteria-proyect.webp'
+import F1NodeProjectImg from '@/assets/f1-node-project.webp'
 import TailwindIcon from './icons/skillsIcons/TailwindIcon.vue'
 import HtmlIcon from './icons/skillsIcons/HtmlIcon.vue'
 import NodeIcon from './icons/skillsIcons/NodeIcon.vue'

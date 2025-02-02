@@ -6,7 +6,7 @@
       class="container mx-auto px-2 py-2 flex justify-center items-center flex-row text-sm font-medium rounded-full relative"
     >
       <a href="#">
-        <EsmilLogo :is-dark="isDark" height="75" width="75" />
+        <EsmilLogo :is-dark="isDark" />
       </a>
       <div class="hidden md:flex gap-5 items-center space-x-4">
         <a
