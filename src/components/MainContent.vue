@@ -48,12 +48,11 @@ const hero = ref<HeroProps>({
 })
 
 const buttons = ref([
-  { href: '../assets/cv.pdf', icon: FileIcon, text: 'Download CV' },
+  { href: '/cv.pdf', icon: FileIcon, text: 'Download CV' },
   { href: 'https://www.linkedin.com/in/joseecampusano', icon: LinkedinIcon, text: 'LinkedIn' },
   { href: 'https://github.com/JoseEsmil04', icon: GithubLogo, text: 'GitHub' }
 ])
 </script>
-
 <style scoped>
 @media (max-width: 640px) {
   .text-transparent {
