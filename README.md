@@ -51,7 +51,10 @@ Si te interesa colaborar o tienes alguna pregunta, puedes encontrarme en:
 - **GitHub:** [@JoseEsmil04](https://github.com/JoseEsmil04)
 - **Correo:** josecampusano0427@gmail.com
 
-📢 ¡Gracias por visitar mi portafolio! Espero que lo disfrutes tanto como yo disfruté creándolo. 😊
+📢 ¡Gracias por visitar mi portafolio! 😊
 
+## 📜 Licencia
+
+Este proyecto está bajo la licencia **MIT**. Puedes ver más detalles en el archivo [`LICENSE`](LICENSE).
 
 
