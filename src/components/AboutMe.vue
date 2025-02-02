@@ -39,22 +39,17 @@
       <img
         width="256"
         height="256"
-        :src="imageProps.sourceImage"
-        :alt="imageProps.altText"
+        :src="MyImage"
+        alt="Jose Esmil"
         class="relative z-10 w-64 h-64 object-cover rounded-3xl border-4 border-[#19cac5] dark:border-[#4728b2] shadow-lg transform hover:scale-105 transition-transform duration-300"
         loading="lazy"
       />
     </div>
   </article>
 </template>
-
 <script setup lang="ts">
-const imageProps = {
-  sourceImage: '/src/assets/JoseEsmil.webp',
-  altText: 'Jose Esmil'
-}
+import MyImage from '@/assets/JoseEsmil.webp'
 </script>
-
 <style scoped>
 @keyframes float {
   0%,
