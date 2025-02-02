@@ -1,45 +1,57 @@
-# portfolio-esmil
+# 🚀 Jose Esmil Portfolio - Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+¡Bienvenido a mi portafolio! 🎨✨ Aquí muestro mis habilidades en desarrollo **Full Stack** con un enfoque moderno utilizando **Vue.js**. Este proyecto es una vitrina de mis capacidades como programador, destacando mis proyectos, experiencia y conocimientos en **Backend y Frontend**.
 
-## Recommended IDE Setup
+## 🛠️ Tecnologías utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue 3** ⚡ (Composition API, `script setup`)
+- **Vite** 🚀 (para un desarrollo rápido y eficiente)
+- **Tailwind CSS** 🎨 (para un diseño moderno y responsivo)
+- **TypeScript** 🏗️ (tipado seguro y escalabilidad)
+- **Vercel** ☁️ (para despliegue rápido y confiable)
+- **Lucide Icons** 🖌️ (para íconos modernos y minimalistas)
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 📦 Instalación y configuración
 
-## Customize configuration
+### 1️⃣ Clonar el repositorio
+```sh
+git clone https://github.com/tuusuario/portfolio-esmil.git
+cd portfolio-esmil
+```
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+### 2️⃣ Instalar dependencias
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
+### 3️⃣ Ejecutar en modo desarrollo 🚀
 ```sh
 npm run dev
 ```
+Luego, abre en tu navegador: `http://localhost:5173/`
 
-### Type-Check, Compile and Minify for Production
-
+### 4️⃣ Generar versión para producción
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
+### 5️⃣ Previsualizar build
 ```sh
-npm run test:unit
+npm run preview
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
+## 📬 Contacto
+
+Si te interesa colaborar o tienes alguna pregunta, puedes encontrarme en:
+- **LinkedIn:** [Tu Perfil](https://www.linkedin.com/in/joseecampusano)
+- **GitHub:** [@tuusuario](https://github.com/JoseEsmil04)
+- **Correo:** josecampusano0427@gmail.com
+
+📢 ¡Gracias por visitar mi portafolio! Espero que lo disfrutes tanto como yo disfruté creándolo. 😊
+
+
+
