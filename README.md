@@ -47,8 +47,8 @@ npm run preview
 ## 📬 Contacto
 
 Si te interesa colaborar o tienes alguna pregunta, puedes encontrarme en:
-- **LinkedIn:** [Tu Perfil](https://www.linkedin.com/in/joseecampusano)
-- **GitHub:** [@tuusuario](https://github.com/JoseEsmil04)
+- **LinkedIn:** [Jose Esmi Campusano](https://www.linkedin.com/in/joseecampusano)
+- **GitHub:** [@JoseEsmil04](https://github.com/JoseEsmil04)
 - **Correo:** josecampusano0427@gmail.com
 
 📢 ¡Gracias por visitar mi portafolio! Espero que lo disfrutes tanto como yo disfruté creándolo. 😊
