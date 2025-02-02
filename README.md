@@ -17,7 +17,7 @@
 
 ### 1️⃣ Clonar el repositorio
 ```sh
-git clone https://github.com/tuusuario/portfolio-esmil.git
+git clone https://github.com/JoseEsmil04/portfolio-esmil.git
 cd portfolio-esmil
 ```
 
