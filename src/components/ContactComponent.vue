@@ -34,7 +34,7 @@ const checkVisibility = () => {
 
 onMounted(() => {
   window.addEventListener('scroll', checkVisibility)
-  checkVisibility() // Check initial visibility
+  checkVisibility()
 })
 
 onUnmounted(() => {

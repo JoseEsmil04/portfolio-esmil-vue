@@ -31,7 +31,6 @@
     </div>
   </section>
 </template>
-
 <script setup lang="ts">
 import NestIcon from '@/components/icons/skillsIcons/NestIcon.vue'
 import NodeIcon from '@/components/icons/skillsIcons/NodeIcon.vue'
@@ -76,7 +75,6 @@ const skillIcons = (skill: string) => {
   }
 }
 </script>
-
 <style scoped>
 @keyframes pulse-border {
   0%,

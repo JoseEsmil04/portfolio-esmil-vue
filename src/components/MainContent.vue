@@ -48,7 +48,7 @@ const hero = ref<HeroProps>({
 })
 
 const buttons = ref([
-  { href: '/src/assets/cv.pdf', icon: FileIcon, text: 'Download CV' },
+  { href: '../assets/cv.pdf', icon: FileIcon, text: 'Download CV' },
   { href: 'https://www.linkedin.com/in/joseecampusano', icon: LinkedinIcon, text: 'LinkedIn' },
   { href: 'https://github.com/JoseEsmil04', icon: GithubLogo, text: 'GitHub' }
 ])

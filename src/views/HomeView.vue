@@ -11,7 +11,7 @@
         ]"
       ></div>
       <div class="relative h-full w-full transition-colors duration-300">
-        <HeaderComponent :nav-items="navItems" v-on:dark-mode-toggle="toggleDarkMode" />
+        <HeaderComponent :nav-items="navItems" v-on:dark-mode-toggle="onDarkMode" />
         <main class="mx-auto max-w-screen-lg px-4 lg:px-8">
           <MainContent :is-dark-mode="isDarkMode" />
           <section id="sobre-mi" class="py-20">
@@ -34,8 +34,6 @@
 </template>
 
 <script setup lang="ts">
-// Supports weights 100-900
-
 import { ref } from 'vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 import HeaderComponent from '@/components/HeaderComponent.vue'
@@ -70,7 +68,7 @@ const navItems = [
 
 const isDarkMode = ref(true)
 
-const toggleDarkMode = () => {
+const onDarkMode = () => {
   isDarkMode.value = !isDarkMode.value
 }
 </script>

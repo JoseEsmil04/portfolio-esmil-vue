@@ -71,7 +71,6 @@
     </Transition>
   </header>
 </template>
-
 <script setup lang="ts">
 import { SunIcon, MoonIcon, MenuIcon, XIcon } from 'lucide-vue-next'
 import { ref } from 'vue'

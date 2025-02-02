@@ -61,7 +61,6 @@
     </article>
   </div>
 </template>
-
 <script setup lang="ts">
 import NestIcon from './icons/skillsIcons/NestIcon.vue'
 import FerreNestApi from '@/assets/ferre-nest-api.png'
