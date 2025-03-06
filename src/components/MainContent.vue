@@ -5,6 +5,7 @@
   >
     <div class="max-w-3xl">
       <h1
+        id="home"
         class="font-poppins text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-[#4728b2] to-[#19cac5] inline-block text-transparent bg-clip-text mb-6 sm:mb-8"
       >
         {{ hero.title }}

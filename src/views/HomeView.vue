@@ -12,18 +12,18 @@
       ></div>
       <div class="relative h-full w-full transition-colors duration-300">
         <HeaderComponent :nav-items="navItems" v-on:dark-mode-toggle="onDarkMode" />
-        <main class="mx-auto max-w-screen-lg px-4 lg:px-8">
+        <main class="mx-auto max-w-screen-lg px-4 lg:px-8 scroll-smooth">
           <MainContent :is-dark-mode="isDarkMode" />
-          <section id="sobre-mi" class="py-20">
+          <section id="sobre-mi" class="py-20 scroll-smooth">
             <AboutMe />
           </section>
-          <section id="proyectos">
+          <section id="proyectos scroll-smooth">
             <ProjectsView />
           </section>
-          <section id="habilidades">
+          <section id="habilidades scroll-smooth">
             <SkillsView />
           </section>
-          <section id="contacto" class="">
+          <section id="contacto scroll-smooth">
             <ContactComponent />
           </section>
         </main>
@@ -96,4 +96,5 @@ const onDarkMode = () => {
 .icon-style:hover {
   animation: iconGlow 1s ease-in-out infinite;
 }
+
 </style>

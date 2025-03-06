@@ -1,5 +1,5 @@
 <template>
-  <section id="habilidades" class="py-20">
+  <section id="habilidades" class="py-12">
     <h2
       class="font-poppins text-3xl md:text-4xl font-bold mb-8 text-gray-800 dark:text-white bg-gradient-to-r from-[#4728b2] to-[#19cac5] text-transparent bg-clip-text"
     >

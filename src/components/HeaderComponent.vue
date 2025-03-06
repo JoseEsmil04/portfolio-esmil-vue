@@ -5,8 +5,8 @@
     <nav
       class="container mx-auto px-2 py-2 flex justify-center items-center flex-row text-sm font-medium rounded-full relative"
     >
-      <a href="#">
-        <EsmilLogo :is-dark="isDark" />
+      <a @click="handleScroll()" class="cursor-pointer">
+        <EsmiIcon :is-dark="isDark" />
       </a>
       <div class="hidden md:flex gap-5 items-center space-x-4">
         <a
@@ -74,7 +74,7 @@
 <script setup lang="ts">
 import { SunIcon, MoonIcon, MenuIcon, XIcon } from 'lucide-vue-next'
 import { ref } from 'vue'
-import EsmilLogo from './icons/EsmilLogo.vue'
+import EsmiIcon from './icons/EsmiIcon.vue'
 
 const isDark = ref(false)
 const isMenuOpen = ref(false)
@@ -106,6 +106,13 @@ const toggleMenu = () => {
 const closeMenu = () => {
   isMenuOpen.value = false
 }
+
+const handleScroll = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+}
 </script>
 
 <style scoped>
@@ -134,4 +141,6 @@ const closeMenu = () => {
   opacity: 1;
   transform: translateY(0);
 }
+
+
 </style>

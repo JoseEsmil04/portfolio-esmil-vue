@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col gap-y-16">
+  <div class="flex flex-col">
     <h2 class="text-3xl font-poppins text-[#4728b2] md:text-4xl font-bold mb-8 dark:text-white">
       Proyectos
     </h2>
     <article
       v-for="project in projects"
       :key="project.title"
-      class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0"
+      class="flex flex-col space-x-0 mb-10 group md:flex-row md:space-x-8 md:space-y-0"
     >
       <div class="w-full md:w-1/2">
         <div
@@ -22,7 +22,7 @@
       </div>
 
       <div class="w-full md:w-1/2 md:max-w-lg">
-        <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
+        <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100 md:mt-0 mt-8">
           {{ project.title }}
         </h3>
         <div class="flex flex-wrap mt-2">
@@ -64,19 +64,25 @@
 <script setup lang="ts">
 import NestIcon from './icons/skillsIcons/NestIcon.vue'
 import FerreNestApi from '@/assets/ferre-nest-api.webp'
-import FerreteriaProjectImg from '@/assets/ferreteria-proyect.webp'
+import JEaiProject from '@/assets/je.ai-proyect.webp'
 import F1NodeProjectImg from '@/assets/f1-node-project.webp'
 import TailwindIcon from './icons/skillsIcons/TailwindIcon.vue'
 import HtmlIcon from './icons/skillsIcons/HtmlIcon.vue'
 import NodeIcon from './icons/skillsIcons/NodeIcon.vue'
 import PostgreSQLIcon from './icons/skillsIcons/PostgreSQLIcon.vue'
 import MongoDBIcon from './icons/skillsIcons/MongoDBIcon.vue'
+import VueIcon from './icons/skillsIcons/VueIcon.vue'
 
 const TAGS = {
   NEST: {
-    name: 'Nest.js',
+    name: 'NestJS',
     class: 'bg-[#b00808]  text-white',
     icon: NestIcon
+  },
+  VUE: {
+    name: 'Vuejs',
+    class: 'bg-[#317356]  text-white',
+    icon: VueIcon
   },
   TAILWIND: {
     name: 'Tailwind CSS',
@@ -115,12 +121,12 @@ const projects = [
     tags: [TAGS.NEST, TAGS.MONGODB]
   },
   {
-    title: 'JEC Ferreteros - Landing Page',
-    description: 'Mi primera landing page implementando lo aprendido de Tailwind CSS',
-    link: 'https://trabajo-tsi-joseesmi.netlify.app/',
-    github: 'https://github.com/JoseEsmil04/jec-ferreteros',
-    image: FerreteriaProjectImg,
-    tags: [TAGS.HTML, TAGS.TAILWIND]
+    title: 'JE.ai - AI Chat',
+    description: 'Aplicación de chat que simula una inteligencia artificial similar a ChatGPT o Gemini. Este proyecto utiliza la API de IA de Gemini para ofrecer respuestas inteligentes en una interfaz moderna.',
+    link: 'https://je-ai.netlify.app/',
+    github: 'https://github.com/JoseEsmil04/esmil-ia-chat',
+    image: JEaiProject,
+    tags: [TAGS.VUE, TAGS.HTML, TAGS.TAILWIND]
   },
   {
     title: 'F1Rest - Rest Api',
