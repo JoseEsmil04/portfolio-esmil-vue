@@ -17,13 +17,13 @@
           <section id="sobre-mi" class="py-20 scroll-smooth">
             <AboutMe />
           </section>
-          <section id="proyectos scroll-smooth">
+          <section id="proyectos" class="scroll-smooth">
             <ProjectsView />
           </section>
-          <section id="habilidades scroll-smooth">
+          <section id="habilidades" class="scroll-smooth">
             <SkillsView />
           </section>
-          <section id="contacto scroll-smooth">
+          <section id="contacto" class="scroll-smooth">
             <ContactComponent />
           </section>
         </main>
