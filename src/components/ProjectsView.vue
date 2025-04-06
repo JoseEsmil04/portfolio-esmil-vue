@@ -62,16 +62,17 @@
   </div>
 </template>
 <script setup lang="ts">
-import NestIcon from './icons/skillsIcons/NestIcon.vue'
 import FerreNestApi from '@/assets/ferre-nest-api.webp'
 import JEaiProject from '@/assets/je.ai-proyect.webp'
 import F1NodeProjectImg from '@/assets/f1-node-project.webp'
-import TailwindIcon from './icons/skillsIcons/TailwindIcon.vue'
-import HtmlIcon from './icons/skillsIcons/HtmlIcon.vue'
-import NodeIcon from './icons/skillsIcons/NodeIcon.vue'
-import PostgreSQLIcon from './icons/skillsIcons/PostgreSQLIcon.vue'
-import MongoDBIcon from './icons/skillsIcons/MongoDBIcon.vue'
-import VueIcon from './icons/skillsIcons/VueIcon.vue'
+import VueIcon from '@/icons/skillsIcons/VueIcon.vue';
+import NestIcon from '@/icons/skillsIcons/NestIcon.vue';
+import TailwindIcon from '@/icons/skillsIcons/TailwindIcon.vue';
+import HtmlIcon from '@/icons/skillsIcons/HtmlIcon.vue';
+import NodeIcon from '@/icons/skillsIcons/NodeIcon.vue';
+import MongoDBIcon from '@/icons/skillsIcons/MongoDBIcon.vue';
+import PostgreSQLIcon from '@/icons/skillsIcons/PostgreSQLIcon.vue';
+
 
 const TAGS = {
   NEST: {

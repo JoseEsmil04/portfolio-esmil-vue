@@ -32,14 +32,14 @@
   </section>
 </template>
 <script setup lang="ts">
-import NestIcon from '@/components/icons/skillsIcons/NestIcon.vue'
-import NodeIcon from '@/components/icons/skillsIcons/NodeIcon.vue'
-import GitIcon from '@/components/icons/skillsIcons/GitIcon.vue'
-import VueIcon from '@/components/icons/skillsIcons/VueIcon.vue'
-import JavascriptIcon from '@/components/icons/skillsIcons/JavascriptIcon.vue'
-import PostgreSQLIcon from '@/components/icons/skillsIcons/PostgreSQLIcon.vue'
-import TypeScriptIcon from '@/components/icons/skillsIcons/TypeScriptIcon.vue'
-import CSharpIcon from '@/components/icons/skillsIcons/CSharpIcon.vue'
+import CSharpIcon from '@/icons/skillsIcons/CSharpIcon.vue'
+import GitIcon from '@/icons/skillsIcons/GitIcon.vue'
+import JavascriptIcon from '@/icons/skillsIcons/JavascriptIcon.vue'
+import NestIcon from '@/icons/skillsIcons/NestIcon.vue'
+import NodeIcon from '@/icons/skillsIcons/NodeIcon.vue'
+import PostgreSQLIcon from '@/icons/skillsIcons/PostgreSQLIcon.vue'
+import TypeScriptIcon from '@/icons/skillsIcons/TypeScriptIcon.vue'
+import VueIcon from '@/icons/skillsIcons/VueIcon.vue'
 
 const skills = [
   { name: 'JavaScript', color: '#f7df1e' },

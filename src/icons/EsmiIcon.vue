@@ -1,7 +1,7 @@
 <template>
   <img
     v-if="isDark"
-    src="../../assets/joseecampusanologo.webp"
+    src="../assets/joseecampusanologo.webp"
     alt="JoseEsmil logo"
     :height="height"
     :width="width"
@@ -9,7 +9,7 @@
   />
   <img
     v-else
-    src="../../assets/joseecampusanologowhite.webp"
+    src="../assets/joseecampusanologowhite.webp"
     alt="JoseEsmil logo White"
     :height="height"
     :width="width"

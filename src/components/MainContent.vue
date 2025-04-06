@@ -30,8 +30,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import GithubLogo from '@/components/icons/GithubLogo.vue'
 import { FileIcon, LinkedinIcon } from 'lucide-vue-next'
+import GithubLogo from '@/icons/GithubLogo.vue';
 
 defineProps<{
   isDarkMode: boolean
@@ -43,13 +43,13 @@ interface HeroProps {
 }
 
 const hero = ref<HeroProps>({
-  title: 'Hey, soy José Esmil',
+  title: 'Hey, soy José Esmi',
   subtitle:
     'Desarrollador FullStack e Ingeniero en Sistemas de Santo Domingo, República Dominicana. Especializado en crear experiencias web únicas y personalizadas.'
 })
 
 const buttons = ref([
-  { href: '/cv.pdf', icon: FileIcon, text: 'Download CV' },
+  { href: '/JoseEsmiCV.pdf', icon: FileIcon, text: 'Download CV' },
   { href: 'https://www.linkedin.com/in/joseecampusano', icon: LinkedinIcon, text: 'LinkedIn' },
   { href: 'https://github.com/JoseEsmil04', icon: GithubLogo, text: 'GitHub' }
 ])

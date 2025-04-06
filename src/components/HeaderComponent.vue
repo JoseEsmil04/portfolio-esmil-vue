@@ -72,9 +72,9 @@
   </header>
 </template>
 <script setup lang="ts">
+import EsmiIcon from '@/icons/EsmiIcon.vue'
 import { SunIcon, MoonIcon, MenuIcon, XIcon } from 'lucide-vue-next'
 import { ref } from 'vue'
-import EsmiIcon from './icons/EsmiIcon.vue'
 
 const isDark = ref(false)
 const isMenuOpen = ref(false)

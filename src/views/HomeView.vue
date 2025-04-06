@@ -14,7 +14,7 @@
         <HeaderComponent :nav-items="navItems" v-on:dark-mode-toggle="onDarkMode" />
         <main class="mx-auto max-w-screen-lg px-4 lg:px-8 scroll-smooth">
           <MainContent :is-dark-mode="isDarkMode" />
-          <section id="sobre-mi" class="py-20 scroll-smooth">
+          <section id="sobre-mi" class="pb-20 scroll-smooth">
             <AboutMe />
           </section>
           <section id="proyectos" class="scroll-smooth">
