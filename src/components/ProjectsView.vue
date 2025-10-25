@@ -62,9 +62,9 @@
   </div>
 </template>
 <script setup lang="ts">
-import FerreNestApi from '@/assets/ferre-nest-api.webp'
+import FixopolisApi from '@/assets/fixopolis-api.webp'
 import JEaiProject from '@/assets/je.ai-proyect.webp'
-import F1NodeProjectImg from '@/assets/f1-node-project.webp'
+import ShopNest from '@/assets/shop-nest.webp'
 import VueIcon from '@/icons/skillsIcons/VueIcon.vue';
 import NestIcon from '@/icons/skillsIcons/NestIcon.vue';
 import TailwindIcon from '@/icons/skillsIcons/TailwindIcon.vue';
@@ -72,6 +72,7 @@ import HtmlIcon from '@/icons/skillsIcons/HtmlIcon.vue';
 import NodeIcon from '@/icons/skillsIcons/NodeIcon.vue';
 import MongoDBIcon from '@/icons/skillsIcons/MongoDBIcon.vue';
 import PostgreSQLIcon from '@/icons/skillsIcons/PostgreSQLIcon.vue';
+import CSharpIcon from '@/icons/skillsIcons/CSharpIcon.vue';
 
 
 const TAGS = {
@@ -79,6 +80,11 @@ const TAGS = {
     name: 'NestJS',
     class: 'bg-[#b00808]  text-white',
     icon: NestIcon
+  },
+  CSHARP: {
+    name: 'C#',
+    class: 'bg-[#68217a]  text-white',
+    icon: CSharpIcon
   },
   VUE: {
     name: 'Vuejs',
@@ -114,12 +120,13 @@ const TAGS = {
 
 const projects = [
   {
-    title: 'Ferreteria Nest - Rest Api',
+    title: 'Fixopolis - WebApi',
     description:
-      'Api RestFul hecha con Nest y MongoDB, para aplicar lo aprendido de un curso, esta Api cuenta Endpoints de Customer, Category, Orders, etc.',
-    github: 'https://github.com/JoseEsmil04/ferreteria-esmil-nest.git',
-    image: FerreNestApi,
-    tags: [TAGS.NEST, TAGS.MONGODB]
+      'WebApi hecha con .NET, Entity Framework y PostgresSQL para aplicar lo aprendido, esta Api trata sobre una ferreteria y cuenta con Endpoints de Products, Category, Orders, etc.',
+    link: 'https://fixopolis-api.onrender.com/swagger',
+    github: 'https://github.com/JoseEsmil04/fixopolis-api.git',
+    image: FixopolisApi,
+    tags: [TAGS.CSHARP, TAGS.POSTGRESQL]
   },
   {
     title: 'JE.ai - AI Chat',
@@ -130,12 +137,12 @@ const projects = [
     tags: [TAGS.VUE, TAGS.HTML, TAGS.TAILWIND]
   },
   {
-    title: 'F1Rest - Rest Api',
+    title: 'Shop - RestApi',
     description:
-      'Api RestFul hecha con Node, Prisma y PostgreSQL. En esta api se implementa el concepto de Clean Architecture para tener una mejor estructura del proyectos para que sea mas facil de escalar y mantener.',
-    github: 'https://github.com/JoseEsmil04/f1-restserver',
-    image: F1NodeProjectImg,
-    tags: [TAGS.NODE, TAGS.POSTGRESQL]
+      'API modular desarrollada con NestJS, PostgreSQL y WebSockets. Incluye autenticación JWT, gestión de productos de ropa, seed de datos y manejo de archivos, siguiendo la arquitectura modular nativa de NestJS para lograr escalabilidad y mantenibilidad.',
+    github: 'https://github.com/JoseEsmil04/shop-nest',
+    image: ShopNest,
+    tags: [TAGS.NEST, TAGS.POSTGRESQL]
   }
 ]
 </script>
