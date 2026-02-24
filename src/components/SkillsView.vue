@@ -36,7 +36,7 @@ import CSharpIcon from '@/icons/skillsIcons/CSharpIcon.vue'
 import GitIcon from '@/icons/skillsIcons/GitIcon.vue'
 import JavascriptIcon from '@/icons/skillsIcons/JavascriptIcon.vue'
 import NestIcon from '@/icons/skillsIcons/NestIcon.vue'
-import NodeIcon from '@/icons/skillsIcons/NodeIcon.vue'
+import ReactIcon from '@/icons/skillsIcons/ReactIcon.vue'
 import PostgreSQLIcon from '@/icons/skillsIcons/PostgreSQLIcon.vue'
 import TypeScriptIcon from '@/icons/skillsIcons/TypeScriptIcon.vue'
 import VueIcon from '@/icons/skillsIcons/VueIcon.vue'
@@ -45,7 +45,7 @@ const skills = [
   { name: 'JavaScript', color: '#f7df1e' },
   { name: 'TypeScript', color: '#007acc' },
   { name: 'C#', color: '#68217a' },
-  { name: 'Node.js', color: '#339933' },
+  { name: 'React', color: '#61DAFB' },
   { name: 'NestJS', color: '#e0234e' },
   { name: 'Git', color: '#f05032' },
   { name: 'Vue', color: '#4fc08d' },
@@ -62,8 +62,8 @@ const skillIcons = (skill: string) => {
       return CSharpIcon
     case 'NestJS':
       return NestIcon
-    case 'Node.js':
-      return NodeIcon
+    case 'React':
+      return ReactIcon
     case 'Git':
       return GitIcon
     case 'Vue':

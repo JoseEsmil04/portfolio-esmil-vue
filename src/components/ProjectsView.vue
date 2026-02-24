@@ -63,6 +63,7 @@
 </template>
 <script setup lang="ts">
 import FixopolisApi from '@/assets/fixopolis-api.webp'
+import FixopolisFrontend from '@/assets/fixopolis-frontend.webp'
 import JEaiProject from '@/assets/je.ai-proyect.webp'
 import ShopNest from '@/assets/shop-nest.webp'
 import VueIcon from '@/icons/skillsIcons/VueIcon.vue';
@@ -73,6 +74,7 @@ import NodeIcon from '@/icons/skillsIcons/NodeIcon.vue';
 import MongoDBIcon from '@/icons/skillsIcons/MongoDBIcon.vue';
 import PostgreSQLIcon from '@/icons/skillsIcons/PostgreSQLIcon.vue';
 import CSharpIcon from '@/icons/skillsIcons/CSharpIcon.vue';
+import ReactIcon from '@/icons/skillsIcons/ReactIcon.vue';
 
 
 const TAGS = {
@@ -90,6 +92,11 @@ const TAGS = {
     name: 'Vuejs',
     class: 'bg-[#317356]  text-white',
     icon: VueIcon
+  },
+  REACT: {
+    name: 'React',
+    class: 'bg-[#347482] text-white',
+    icon: ReactIcon
   },
   TAILWIND: {
     name: 'Tailwind CSS',
@@ -127,6 +134,15 @@ const projects = [
     github: 'https://github.com/JoseEsmil04/fixopolis-api.git',
     image: FixopolisApi,
     tags: [TAGS.CSHARP, TAGS.POSTGRESQL]
+  },
+  {
+    title: 'Fixopolis - Frontend',
+    description:
+      'Frontend moderno desarrollado con React y Tailwind CSS para una plataforma e-commerce del sector ferretero. Implementa arquitectura basada en componentes, consumo eficiente de API REST en .NET y diseño responsive optimizado para experiencia de usuario.',
+    link: 'https://fixopolis.vercel.app',
+    github: 'https://github.com/JoseEsmil04/fixopolis-frontend.git',
+    image: FixopolisFrontend,
+    tags: [TAGS.HTML, TAGS.REACT, TAGS.TAILWIND]
   },
   {
     title: 'JE.ai - AI Chat',
