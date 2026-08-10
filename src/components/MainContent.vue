@@ -45,7 +45,7 @@ interface HeroProps {
 const hero = ref<HeroProps>({
   title: 'Hey, soy José Esmi',
   subtitle:
-    'Desarrollador FullStack e Ingeniero en Sistemas de Santo Domingo, República Dominicana. Especializado en crear experiencias web únicas y personalizadas.'
+    'Desarrollador FullStack e Ingeniero de Sistemas de Santo Domingo, República Dominicana. Especializado en crear experiencias web únicas y personalizadas.'
 })
 
 const buttons = ref([

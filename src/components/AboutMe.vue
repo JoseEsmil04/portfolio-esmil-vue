@@ -15,11 +15,11 @@
         class="absolute inset-0 bg-gradient-to-r from-[#4728b2] to-[#19cac5] rounded-full blur-xl opacity-30 animate-pulse"
       ></div>
       <img
-        width="256"
-        height="256"
+        width="384"
+        height="384"
         :src="MyImage"
-        alt="Jose Esmil"
-        class="relative z-10 w-64 h-64 object-cover rounded-xl border-4 border-[#19cac5] dark:border-[#4728b2] shadow-lg transform hover:scale-105 transition-transform duration-300"
+        alt="Jose Esmi"
+        class="relative z-10 w-96 h-96 object-cover rounded-xl border-4 border-[#19cac5] dark:border-[#4728b2] shadow-lg transform hover:scale-105 transition-transform duration-300"
         loading="lazy"
       />
     </div>
